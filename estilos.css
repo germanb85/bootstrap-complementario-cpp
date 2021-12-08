@@ -17,11 +17,22 @@ body{
 .logo-portada{
     align-items: center;
     text-align: center;
+    margin: 0 auto;
+    width: auto;
 }
 
 /*" ANIMACION LOGO"*/
 
+.logo-portada{
+  animation: bouncel 1s alternate infinite ease-in;
+}
 
+@keyframes bouncel{
+  0%{
+    transform: translateX(20%);
+    transform: translatey(20%);
+  }
+}
 
 /*" MENU "*/
 
