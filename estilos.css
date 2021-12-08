@@ -333,6 +333,11 @@ z-index: 1;
     margin: 0 auto;
 }
 
+form{
+  width: 40%;
+  margin: 0 auto;
+}
+
   /*" FOOTER "*/
 
   .pie-de-pagina{
